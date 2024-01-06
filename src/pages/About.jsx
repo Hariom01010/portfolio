@@ -9,7 +9,7 @@ function About() {
         <div className='flex flex-col md:flex-row md:my-20 md:mx-14'>
             <div className='w-full md:w-1/3'>
                 <img src="./pfp.jpg" alt="profile pic" width={200} className='rounded-full border-[7px] md:w-[400px] my-10 mx-auto shadow-[0px_0px_20px_1px_rgba(256,256,256)]'/>
-                <button className='flex my-10 mx-auto xl:mx-36 px-4 py-2 items-center hover:bg-[#cf9c0f] rounded-sm border border-[#cf9c0f]'><GoDownload className='mr-2'/> RESUME</button>
+                <a href="https://drive.google.com/file/d/1UwmDvfEzy_oJ1ch5zKP3G1H2ZZ4LIMjj/view?usp=sharing" target='_blank'><button className='flex my-10 mx-auto xl:mx-36 px-4 py-2 items-center hover:bg-[#cf9c0f] rounded-sm border border-[#cf9c0f]'><GoDownload className='mr-2'/> RESUME</button></a>
             </div>
             <div className='w-full md:w-2/3 my-3 md:ml-32'>
                 <h1 className='text-[#cf9c0f] text-center text-3xl md:text-4xl'>ABOUT ME</h1>
