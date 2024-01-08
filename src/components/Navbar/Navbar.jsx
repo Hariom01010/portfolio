@@ -46,7 +46,7 @@ function Navbar() {
                 <RxCross2 onClick={showNavbar} size={28} className='relative right-0 mt-6'/>
             </div>
             <div className='h-full'>
-                <ul className='my-auto'>
+                <ul className='flex flex-col justify-center relative -top-24 h-full'>
                     <Link to="/about"><li className='text-xl my-4 flex items-center'><IoPersonOutline size={24} className='mr-4'/>About</li></Link>
                     <Link to="/projects"><li className='text-xl my-4 flex items-center'><FaLaptopCode size={24} className='mr-4'/>Projects</li></Link>
                     <Link to="contact"><li className='text-xl my-4 flex items-center'><MdOutlineMail size={24} className='mr-4'/>Contact</li></Link>
